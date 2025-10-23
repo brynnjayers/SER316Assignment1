@@ -38,7 +38,7 @@ public class GameEngine {
             int remaining = MAX_ATTEMPTS - attempts;
             GuessResult result;
             if (guess < target) {
-                result = new GuessResult(false, "Too low Try a higher number.", attempts);
+                result = new GuessResult(false, "Too low! Try a higher number.", attempts);
             } else {
                 result = new GuessResult(false, "Too high! Try a lower number.", attempts);
             }
